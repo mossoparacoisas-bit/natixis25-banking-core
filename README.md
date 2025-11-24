@@ -12,5 +12,5 @@ createdb banking_db
 
 # Or usando psql
 psql -U postgres
-CREATE DATABASE banking_db;
+CREATE DATABASE banking_db;a
 ```

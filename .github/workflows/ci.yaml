@@ -5,11 +5,29 @@ on:
 
 
 jobs:
-  hello-natixis:
+  buildetest:
     runs-on: ubuntu-latest
 
 
     steps:
-      - name: Say hello
-        run: |
-          echo "Hello Natixis:"
+      - name: Obter Codigo
+        run: echo "Obter Codigo"
+
+      - name: Instalar dep
+        run: echo "Instalar dep"
+      
+      - name: Rodar test
+        run: echo "Rodar test"
+
+  Deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Obter Codigo
+        run: echo "Obter Codigo"
+
+      - name: Instalar dep
+        run: echo "Instalar dep"
+      
+      - name: Rodar test
+        run: echo "Rodar test"
