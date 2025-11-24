@@ -1,4 +1,4 @@
-name: Hello Natixis
+name: Hello Natixis2
 
 on:
   workflow_dispatch:
