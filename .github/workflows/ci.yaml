@@ -1,4 +1,4 @@
-name: Banking Core CI
+name: Banking Core CI - onsecond
 
 on:
   workflow_dispatch:
